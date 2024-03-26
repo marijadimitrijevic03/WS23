@@ -1,4 +1,4 @@
-# Deine eigene Bibliothek
+# Deine eigener Budget Planner 
 ## Inhaltsverzeichnis
 1. [Allgemeine Informationen](#allgemeine-information)
 2. [Information zur Anwendung](#information-zur-anwendung)
@@ -6,21 +6,18 @@
 4. [Installation](#installation)
 ### Allgemeine Information
 ***
-Diese Idee kam ursprünglich meiner Mutter, weil wir zu viele Bücher zuhause haben, und keine Übersicht darüber, ob sie gelesen wurden oder nicht.
-Man kann Bücher hinzufügen, sie anzeigen lassen und löschen.
-(Updaten hat nicht funktioniert.)
+"Willkommen bei Mein Budgetplanner, Ihrer ganz individuellen und persönlichen Budgetplanungs-Webanwendung. Mit unserer benutzerfreundlichen Plattform können Sie mühelos Ihr monatliches Budget verwalten. Fügen Sie einfach Ausgaben oder Einnahmen hinzu und wählen Sie aus, um welche Art von Finanztransaktion es sich handelt. Unsere App aktualisiert automatisch die Gesamtsummen, die aktuellen Kontostände und die ausgegebenen Beträge bei jeder neuen Hinzufügung. So wird die Budgetplanung nicht nur einfach, sondern macht auch Spaß und verschafft Ihnen einen klaren Überblick über Ihre Finanzen."
+ 
+
 ### Information zur Anwendung
 ***
 #### Einen Eintrag hinzufügen
-Der Nutzer ist möglich ein Buch seiner Wahl inklusive Titel, Kurzbeschreibung, Genre und Status hinzuzufügen.
-Die id wird automatisch zugewiesen.
-![Hinzufügen](hinzufügen.png)
-
+Der Nutzer kann einen neuen Eintrag ganz einfach erstellen, indem er eine kurze Beschreibung (z.B. Miete, Lohn, Geschenke) und den entsprechenden Betrag eingibt. Anschließend wählt er aus, ob es sich um eine Einnahme oder Ausgabe handelt. Der Eintrag wird dann automatisch auf die entsprechende Seite sortiert.
+### Löschen
+Jeder Eintrag hat auf der rechten Seite eine kleine Mülltonne. Sollte der Nutzer sich entscheiden, den Eintrag löschen zu wollen, kann er durch kurzes Drücken der Tonne den gesamten Eintrag löschen. Anschließend aktualisiert sich der Betrag automatisch.
 ### Bearbeiten
 Leider gibt es nicht die Möglichkeit die Einträge zu bearbeiten
-### Löschen
-Durch das Bootstrap Trash Icon kann ein Eintrag gelöscht werden. Dieses Fenster zur Bestätigung des Löschvorgangs öffnet sich dann.
-![Löschen](tabelle2loeschen.png)
+
 ### Technologien
 ***
 Eine Übersicht der verwendeten Technologien:
@@ -37,10 +34,9 @@ Eine Übersicht der verwendeten Technologien:
 Leider hat das Deployment zeitlich nicht funktioniert.
 1. Das Repository muss geklont werden.
 --> git clone 
-2. Die buecher.sql muss lokal in die Datenbank eingefügt werden.
-3. Backend muss gestartet werden
+2. Backend muss gestartet werden
 --> node server.js
-4. Frontend muss gestartet werden
+3. Frontend muss gestartet werden
 --> ng serve
 (Eventuell muss npm i eingegeben werden.)
 
