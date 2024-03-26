@@ -14,6 +14,9 @@
 
 #### Einen Eintrag hinzufügen
 Der Nutzer kann einen neuen Eintrag ganz einfach erstellen, indem er eine kurze Beschreibung (z.B. Miete, Lohn, Geschenke) und den entsprechenden Betrag eingibt. Anschließend wählt er aus, ob es sich um eine Einnahme oder Ausgabe handelt. Der Eintrag wird dann automatisch auf die entsprechende Seite sortiert.
+<img width="865" alt="Bildschirmfoto 2024-03-26 um 21 20 32" src="https://github.com/marijadimitrijevic03/Webtech24/assets/92723565/4ba88e1e-7b2a-4c8e-8aa3-c0d74702224e">
+
+
 ### Löschen
 Jeder Eintrag hat auf der rechten Seite eine kleine Mülltonne. Sollte der Nutzer sich entscheiden, den Eintrag löschen zu wollen, kann er durch kurzes Drücken der Tonne den gesamten Eintrag löschen. Anschließend aktualisiert sich der Betrag automatisch.
 ### Bearbeiten
