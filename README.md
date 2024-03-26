@@ -1,4 +1,4 @@
-# Deine eigener Budget Planner 
+# Mein Budget Planner 
 ## Inhaltsverzeichnis
 1. [Allgemeine Informationen](#allgemeine-information)
 2. [Information zur Anwendung](#information-zur-anwendung)
@@ -6,8 +6,8 @@
 4. [Installation](#installation)
 ### Allgemeine Information
 ***
-"Willkommen bei Mein Budgetplanner, Ihrer ganz individuellen und persönlichen Budgetplanungs-Webanwendung. Mit unserer benutzerfreundlichen Plattform können Sie mühelos Ihr monatliches Budget verwalten. Fügen Sie einfach Ausgaben oder Einnahmen hinzu und wählen Sie aus, um welche Art von Finanztransaktion es sich handelt. Unsere App aktualisiert automatisch die Gesamtsummen, die aktuellen Kontostände und die ausgegebenen Beträge bei jeder neuen Hinzufügung. So wird die Budgetplanung nicht nur einfach, sondern macht auch Spaß und verschafft Ihnen einen klaren Überblick über Ihre Finanzen."
- 
+"Willkommen beim "Mein Budgetplaner", Ihrer ganz individuellen und persönlichen Budgetplanungs-Webanwendung. Mit meiner benutzerfreundlichen Plattform können Nutzer mühelos ihr monatliches Budget verwalten. Fügen Sie einfach Ausgaben oder Einnahmen hinzu und wählen Sie aus, um welche Art von Finanztransaktion es sich handelt. Die Anwendung aktualisiert automatisch die Gesamtsummen, die aktuellen Kontostände und die ausgegebenen Beträge bei jeder neuen Hinzufügung. So wird die Budgetplanung nicht nur einfach, sondern macht auch Spaß und verschafft den Nutzern einen klaren Überblick über ihre Finanzen."
+
 
 ### Information zur Anwendung
 ***
@@ -16,7 +16,7 @@ Der Nutzer kann einen neuen Eintrag ganz einfach erstellen, indem er eine kurze 
 ### Löschen
 Jeder Eintrag hat auf der rechten Seite eine kleine Mülltonne. Sollte der Nutzer sich entscheiden, den Eintrag löschen zu wollen, kann er durch kurzes Drücken der Tonne den gesamten Eintrag löschen. Anschließend aktualisiert sich der Betrag automatisch.
 ### Bearbeiten
-Leider gibt es nicht die Möglichkeit die Einträge zu bearbeiten
+Leider gibt es nicht die Möglichkeit die Einträge zu bearbeiten.
 
 ### Technologien
 ***
@@ -39,6 +39,7 @@ Leider hat das Deployment zeitlich nicht funktioniert.
 3. Frontend muss gestartet werden
 --> ng serve
 (Eventuell muss npm i eingegeben werden.)
+4. Meine größte Hürde war das erstellen eines Backends da ich probleme mit npm Zugriffen auf meinem Laptop hatte 
 
 
 
