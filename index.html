@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>Budget Planer</title>
+</head>
+<body>
+    <header>
+        <h1 class="heading">Mein Budget Planer</h1>
+    </header>
+    <main class="container">
+        <section class="budget__numbers">
+            <div id="earned" class="number">
+                <small>Gesamteinnahmen</small>
+                <div class="amount__container">
+                    <p id="earned__symbol">€</p>
+                    <span id="amount__earned">0.00</span>
+                </div>
+            </div>
+            <div id="available" class="number">
+                <small>Verfügbarer Betrag</small>
+                <div class="amount__container">
+                    <p>€</p>
+                    <span id="amount__available">0.00</span>
+                </div>
+            </div>
+            <div id="spent" class="number">
+                <small>Ausgegebener Betrag</small>
+                <div class="amount__container">
+                    <p id="spent__symbol">€</p>
+                    <span id="amount__spent">0.00</span>
+                </div>
+            </div>
+        </section>
+        <section class="input__area">
+            <label for="amount">Beschreibung </label>
+            <input type="text" id="description" placeholder="">
+            <label for="amount">Betrag </label>
+            <input type="number" id="amount" placeholder="  €">
+        </section>
+        <section class="buttons__area">
+            <button id="add__income">Einnahme hinzufügen</button>
+            <button id="add__expense">Ausgabe hinzufügen</button>
+        </section>
+        <section class="items__container">
+            <div id="income__container" class="container">
+                <h2>Einnahmen</h2>
+            </div>
+            <div id="expenses__container" class="container">
+                <h2>Ausgaben</h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>

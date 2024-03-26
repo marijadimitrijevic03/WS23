@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.budget__numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.number {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.number small {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.amount__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount__container p {
+    margin: 0;
+}
+
+.input__area {
+    margin-bottom: 20px;
+}
+
+.input__area label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input__area input {
+    width: calc(50% - 5px); /* 50% Breite und 5px Abstand */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons__area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#add__income {
+    padding: 10px 20px;
+    background-color: #28a745; /* Grüne Farbe für "Add Income" Button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add__expense {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Rote Farbe für "Add Expense" Button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items__container {
+    display: flex;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+.container div {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.container div h4 {
+    margin-bottom: 5px;
+}
+
+.container div p {
+    margin-bottom: 0;
+}
+
+#spent {
+    border: 1px solid #ccc; /* Behält die Standardumrandung für ausgegebenen Betrag bei */
+}
+
+#available {
+    border: 2px solid #28a745; /* Hervorhebung für verfügbaren Betrag */
+    background-color: #fafafa; /* Hintergrundfarbe für verfügbaren Betrag */
+}
+
+.delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: rgb(237, 185, 185);
+}
+
+/* Grüne Farbe für Einnahmen */
+#amount__earned {
+    color: #28a745;
+}
+
+/* Rote Farbe für Ausgaben */
+#amount__spent {
+    color: #dc3545;
+}
