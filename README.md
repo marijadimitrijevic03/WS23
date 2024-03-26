@@ -11,19 +11,13 @@ Man kann Bücher hinzufügen, sie anzeigen lassen und löschen.
 (Updaten hat nicht funktioniert.)
 ### Information zur Anwendung
 ***
-#### Home:
-Begrüßungsseite, wenn man die Anwendung öffnet.
-![Begrüßung](Willkommensseite.png)
-#### Ein Buch hinzufügen
+#### Einen Eintrag hinzufügen
 Der Nutzer ist möglich ein Buch seiner Wahl inklusive Titel, Kurzbeschreibung, Genre und Status hinzuzufügen.
 Die id wird automatisch zugewiesen.
 ![Hinzufügen](hinzufügen.png)
-#### Tabelle
-***
-In der Tabelle kann man alle eingetragenen Bücher in der Datenbank sehen.
-![Tabelle](tabelle1.png)
+
 ### Bearbeiten
-Leider passiert bei mir nichts, wenn man auf den Stift klickt.
+Leider gibt es nicht die Möglichkeit die Einträge zu bearbeiten
 ### Löschen
 Durch das Bootstrap Trash Icon kann ein Eintrag gelöscht werden. Dieses Fenster zur Bestätigung des Löschvorgangs öffnet sich dann.
 ![Löschen](tabelle2loeschen.png)
@@ -31,8 +25,7 @@ Durch das Bootstrap Trash Icon kann ein Eintrag gelöscht werden. Dieses Fenster
 ***
 Eine Übersicht der verwendeten Technologien:
 ### Entwicklungsumgebung:
-- Visual Studio Code
-- Bootstrap
+- Visual Studio Code 
 ### Datenbank:
 - MySQL
 ### Backend:
@@ -43,7 +36,7 @@ Eine Übersicht der verwendeten Technologien:
 ***
 Leider hat das Deployment zeitlich nicht funktioniert.
 1. Das Repository muss geklont werden.
---> git clone https://github.com/anschmidt01/WebtechProjekt23.git
+--> git clone 
 2. Die buecher.sql muss lokal in die Datenbank eingefügt werden.
 3. Backend muss gestartet werden
 --> node server.js
